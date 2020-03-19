@@ -1,35 +1,17 @@
-body {
+body{
 	font-family: sans-serif;
 }
 
 header {
 	background-color: blue;
-	
 }
 
-header h1, header h2 {
+header h1, 
+header h2 {
 	color: white;
-	margin: 0;
 }
-
-div.titulo {
-	display: inline-block;
-}
-
 ul.sem-bullets {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	}
-
-ul.sem-bullets li {
-	display: inline-block;
-	background-color: green;
-	padding: 15px 10px;
-	border: 3px solid black;
 }
 
 a.link {
@@ -39,20 +21,7 @@ a.link {
 	font-weight: bold;
 }
 
-footer{
+footer {
 	text-align: center;
-	background-color: #CECECE;
-}
-
-@media (max-width: 500px){
-	ul.sem-bullets li{
-		background-color: red;
-	}
-	header {
-		text-align: center;
-	}
-	ul.sem-bullets {
-		justify-content: space-between;
-	}
-	
+	background-color: #CECECE
 }
